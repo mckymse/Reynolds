@@ -1,0 +1,7 @@
+.form-container{
+    position: absolute;
+    top: 20vh;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px #a9a9a9;
+}
