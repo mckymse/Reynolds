@@ -15,9 +15,9 @@ if ($result=mysqli_query($conn,$sql))
   
   if($rowcount>0){
     //set location after combining homepage  
-    //header("Location:Homepage.html");
+    header("Location:http://localhost/reynolds/Reynolds/Homepage.php");
 
-    echo "Logged in";
+    
 
   }
 
