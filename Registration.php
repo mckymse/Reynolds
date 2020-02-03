@@ -21,10 +21,16 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row justify-content-center">
+        <div>
+                    
+                    <h2><img src="logo.jpg" width="120" height="120"><b>Reynolds Pens India Private Limited,Irungattukottai</b></h2><br>
+
+                </div>
             <div class="col-12 col-sm-6 col-md-3">
+            
                 <form class="form-container" action="http://localhost/reynolds/Reynolds/php/register/registration.php" method="POST" onsubmit="return validation();">
 
                     <div class="form-group">
@@ -64,6 +70,9 @@
                 </form>
 
             </div>
+            <div class="col-12 col-sm-6 col-md-3 logo-rec2">
+                            <h5>powered by<img src="logo2.png" alt="" width="130" height="72"></h5>
+                        </div>
 
         </div>
     </div>

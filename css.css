@@ -105,7 +105,7 @@ body{
   }
   
   /* Full-width input fields */
-  .form-container1 input[type=text], .form-container1 input[type=number] {
+  .form-container1 input[type=text], .form-container1 input[type=number], .form-container1 input[type=date] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -114,7 +114,7 @@ body{
   }
   
   /* When the inputs get focus, do something */
-  .form-container1 input[type=text]:focus, .form-container1 input[type=number]:focus {
+  .form-container1 input[type=text]:focus, .form-container1 input[type=number]:focus, .form-container1 input[type=date]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -135,8 +135,23 @@ body{
   .form-container1 .cancel {
     background-color: red;
   }
+
+  .form-container1 .generate {
+    background-color: blueviolet;
+  }
   
   /* Add some hover effects to buttons */
   .form-container1 .btn:hover, .open-button:hover {
     opacity: 1;
+  }
+
+  .logo-rec{
+    position: relative;
+    bottom: -350px;
+    right: -400px;
+  }
+  .logo-rec2{
+    position: relative;
+    bottom: -600px;
+    right: -450px;
   }

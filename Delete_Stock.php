@@ -17,7 +17,7 @@ include('./php/connectivity/connection.php');
 <body>
 <div class="wrapper">
     <div class="sidebar">
-        <h2>Welcome User</h2>
+        <h2>Welcome <?php session_start(); echo $_SESSION["current_user"] ?></h2>
         <ul>
             <li><a href="Homepage.php"><i class="fas fa-home"></i>Dashboard</a></li>
             <li><a href="Stock.php"><i class="fas fa-cubes"></i>Stock</a></li>
